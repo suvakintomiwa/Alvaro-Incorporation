@@ -1,0 +1,193 @@
+/* Reset some default browser styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to bottom, #fefefe, #e8ede7); /* soft earthy background */
+  color: #333;
+}
+
+/* Header / Hero */
+header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #004e92, #000428); /* air + water feel */
+  color: white;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 10px 0;
+  color: #ffb347; /* fire accent */
+}
+
+header h3 {
+  color: #e0f7fa; /* light air tone */
+}
+
+header button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #ff5722; /* fire button */
+  color: white;
+  transition: 0.3s;
+}
+
+header button:hover {
+  background: #e64a19; /* darker fire on hover */
+}
+ /* Navbar base */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1b263b;   /* deep navy blue = water */
+  padding: 15px 40px;
+  position: sticky;      /* stays on top when scrolling */
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo */
+.navbar .logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #f4e1c1;  /* sandy beige = earth */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Nav links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: aqua;   /* earthy tone */
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Optional: active link style (shows where you are) */
+.nav-links a.active {
+  border-bottom: 3px solid #e67e22; /* warm orange = fire */
+  padding-bottom: 3px;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+section h1, section h2 {
+  color: #2e4600; /* earthy green for headers */
+}
+
+/* Services Section */
+section article {
+  background: #f4f1ec; /* soft sand/land tone */
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+}
+
+section article img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+section article h2 {
+  color: #1565c0; /* water accent */
+}
+
+/* Features List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #e0f2f1; /* calm water/air color */
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+/* CTA Buttons */
+section button {
+  margin: 5px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #4caf50; /* land/earth tone */
+  color: white;
+  transition: 0.3s;
+}
+
+section button:hover {
+  background: #388e3c;
+}
+
+/* Contact Form */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  margin-top: 15px;
+  background: #1565c0; /* water button */
+  color: white;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #263238; /* deep earthy tone */
+  color: #ccc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
